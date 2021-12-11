@@ -16,7 +16,6 @@ export const Container = styled.div`
     @media(max-width: 800px) {
         padding: 0 42px 0 22px;
     }
-
 `;
 
 export const Image = styled.div`
@@ -26,7 +25,6 @@ export const Image = styled.div`
     border-radius: 5px;
     background-color: ${props => props.theme.colors.background};
     box-sizing: border-box;
-
     @media(max-width: 800px) {
         max-width: 78px;
         max-height: 78px;
@@ -40,7 +38,6 @@ export const Name = styled.span`
     margin: 0 25px;
     font-weight: 900;
     
-
     @media(max-width: 800px) {
         font-size: 22px;
     }
@@ -50,7 +47,6 @@ export const Button = styled.div`
     max-width: 35px;
     max-height: 35px;
     cursor: pointer;
-
     @media(max-width: 800px) {
         max-width: 30x;
         max-height: 30px;

@@ -10,15 +10,15 @@ function Body() {
         <C.AboutMe>
             <C.Title>Sobre <C.Tcolor>mim</C.Tcolor></C.Title>
             <C.TextAbout>
-            <p style={{margin: '0 0 10px'}}>I have about than two years of work experience in full-stack development and have a firm knowledge of HTML, CSS and JavaScript language and possess a good knowledge of computer software packages (frameworks and tools) that are used in today’s technology.
+            <p style={{margin: '0 0 10px'}}>Oii eu sou a Kelly ratazana topeira de boeiro.
 </p>
 <p style={{margin: '0 0 10px'}}>
-On a personal level, I am highly-motivated, result oriented, self-driven, hard-working, fast learner and constantly seeking to improve my skills.
+Estou estudando design de photoshop de ratazanas de bueiro.
 </p>
 <p style={{margin: '0 0 10px'}}>
-In addition to this, I have the ability to adapt to any type of team environment, I am team oriented and get along with others when working in a group setting. I also have the ability to work independently while staying on schedule and meeting those tight deadlines.
+Estou aprendendo a como desenhar sombrancelhas de ratazanas sem orelhas
 </p>
-Below is a list of my current technical skills:
+Abaixo veja a lista das minhas habilidades técnicas
             </C.TextAbout>
             <C.Tecnologies>
                 

@@ -11,7 +11,7 @@ function Header({ toggleTheme }) {
     return (
       <C.Container>
         <C.Image>
-          <img src={fotoPerfil} alt="Perfil" style={{width: 'auto', height: 'auto', maxWidth: '86px', maxHeight: '86px'}} />
+          <img src={fotoPerfil} alt="Perfil" style={{width: '100%', height: '100%'}} />
         </C.Image>
         <C.Name>Kelly Joner</C.Name> 
         <C.Button>
