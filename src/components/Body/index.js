@@ -2,6 +2,10 @@ import * as C from './styles';
 import Project from '../Project';
 import corel from '../../images/linguagens/corel.png';
 import davinciresolve from '../../images/linguagens/davinciresolve.png';
+import ai from '../../images/linguagens/ai.png';
+import ps from '../../images/linguagens/ps.png';
+import lr from '../../images/linguagens/lr.png';
+import id from '../../images/linguagens/id.png';
 
 function Body() {
     return(
@@ -22,6 +26,18 @@ Abaixo veja a lista das minhas habilidades técnicas
             </C.TextAbout>
             <C.Tecnologies>
                 
+                    <C.Tecnology>
+                        <img src={id} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                    </C.Tecnology>
+                    <C.Tecnology>
+                        <img src={ai} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                    </C.Tecnology>
+                    <C.Tecnology>
+                        <img src={ps} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                    </C.Tecnology>
+                    <C.Tecnology>
+                        <img src={lr} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
+                    </C.Tecnology>
                     <C.Tecnology>
                         <img src={corel} title="corel" alt="corel" style={{maxWidth: '100%', maxHeight: '100%', width: 'auto', height: 'auto'}}/>
                     </C.Tecnology>
