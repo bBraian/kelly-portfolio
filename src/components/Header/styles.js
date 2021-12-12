@@ -23,7 +23,7 @@ export const Image = styled.div`
     max-height: 90px;
     border: 2px solid ${props => props.theme.colors.secundary};
     border-radius: 5px;
-    background-color: ${props => props.theme.colors.background};
+    background-color: transparent;
     box-sizing: border-box;
     @media(max-width: 800px) {
         max-width: 78px;
