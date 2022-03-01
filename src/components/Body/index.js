@@ -7,6 +7,11 @@ import ps from '../../images/linguagens/ps.png';
 import lr from '../../images/linguagens/lr.png';
 import id from '../../images/linguagens/id.png';
 
+import acai from '../../images/Açaí.png';
+import acai2 from '../../images/Açaí2.png';
+import hamburguer from '../../images/hamburguer2.png';
+import suco from '../../images/suco.png';
+
 function Body() {
     return(
         <C.Container>
@@ -51,12 +56,10 @@ Abaixo veja a lista das minhas habilidades técnicas
 
             <C.Title>Projetos</C.Title>
             <C.ContainerProjects>
-                <Project descriptionn="A project made with react typescript using styled-components"></Project>
-                <Project descriptionn="That's my old portfolio made only with javascript, html and css"></Project>
-                <Project descriptionn="Todo is an react-app made with typescript. Is the convencional list of things to do. You can create, and mark as done"></Project>
-                <Project descriptionn="This project was made in React during a challenge called '5 Projetos em 5 Dias' by B7Web."></Project>
-                <Project descriptionn="This is a project of a digital menu made whith php whitout framework"></Project>
-                <Project descriptionn="Is a project of the famous and known snake game inspired by the old model made in javascript."></Project>
+                <Project descriptionn="A project made with react typescript using styled-components" projectImage={acai}></Project>
+                <Project descriptionn="That's my old portfolio made only with javascript, html and css" projectImage={acai2}></Project>
+                <Project descriptionn="Todo is an react-app made with typescript. Is the convencional list of things to do. You can create, and mark as done" projectImage={suco}></Project>
+                <Project descriptionn="This project was made in React during a challenge called '5 Projetos em 5 Dias' by B7Web." projectImage={hamburguer}></Project>
             </C.ContainerProjects>
         </C.Container>
     );

@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import * as C from './styles';
 
-function Project({descriptionn}) {
+function Project({descriptionn, projectImage}) {
 
     const [description, setDescription] = useState("none");
 
@@ -10,7 +10,7 @@ function Project({descriptionn}) {
         })
 
     return( 
-      <C.Project onMouseEnter={() => setDescription(description === "none" ? "block" : "none")} onMouseLeave={() => setDescription(description === "none" ? "block" : "none")} style={{backgroundImage: "url(https://images.prismic.io/mystique/5d7c09b9-40e5-4254-ae1c-2c1cb59aa898_IMG3.jpg?auto=compress,format)"}}>
+      <C.Project onMouseEnter={() => setDescription(description === "none" ? "block" : "none")} onMouseLeave={() => setDescription(description === "none" ? "block" : "none")} style={{backgroundImage: `url(${projectImage})`, backgroundSize: 'cover', backgroundRepeat: 'no-repeat', backgroundPosition: 'center', padding: '20px'}}>
           <C.Container>
               <C.Description id={descriptionn}>{descriptionn}</C.Description>
           </C.Container>
