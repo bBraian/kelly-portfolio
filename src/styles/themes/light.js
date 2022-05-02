@@ -1,4 +1,4 @@
-import background from '../../images/white.png';
+import background from '../../images/white.jpg';
 
 const light =  {
     title: 'light',

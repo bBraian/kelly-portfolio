@@ -1,4 +1,4 @@
-import background from '../../images/black.png';
+import background from '../../images/black.jpg';
 
 const dark =  {
     title: 'dark',

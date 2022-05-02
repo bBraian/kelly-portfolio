@@ -15,7 +15,7 @@ export const Title = styled.h1`
     justify-content: center;
     font-size: 50px;
     text-align: center;
-    margin: 18px;
+    margin: 18px 18px 55px 18px;
     font-family: 'Roboto', sans-serif;
 
     @media(max-width: 800px) {

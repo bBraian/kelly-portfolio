@@ -11,14 +11,17 @@ import acai from '../../images/Açaí.png';
 import acai2 from '../../images/Açaí2.png';
 import hamburguer from '../../images/hamburguer2.png';
 import suco from '../../images/suco.png';
+import meu_acai from '../../images/meu_acai.png';
+import cartaz_filme from '../../images/A1.jpg';
 
 function Body() {
+
     return(
         <C.Container>
 
         <C.AboutMe>
             <C.Title>Sobre <C.Tcolor>mim</C.Tcolor></C.Title>
-            <C.TextAbout>
+            {/* <C.TextAbout>
             <p style={{margin: '0 0 10px'}}>Oii eu sou a Kelly ratazana topeira de boeiro.
 </p>
 <p style={{margin: '0 0 10px'}}>
@@ -28,7 +31,7 @@ Estou estudando design de photoshop de ratazanas de bueiro.
 Estou aprendendo a como desenhar sombrancelhas de ratazanas sem orelhas
 </p>
 Abaixo veja a lista das minhas habilidades técnicas
-            </C.TextAbout>
+            </C.TextAbout> */}
             <C.Tecnologies>
                 
                     <C.Tecnology>
@@ -56,10 +59,12 @@ Abaixo veja a lista das minhas habilidades técnicas
 
             <C.Title>Projetos</C.Title>
             <C.ContainerProjects>
-                <Project descriptionn="A project made with react typescript using styled-components" projectImage={acai}></Project>
-                <Project descriptionn="That's my old portfolio made only with javascript, html and css" projectImage={acai2}></Project>
-                <Project descriptionn="Todo is an react-app made with typescript. Is the convencional list of things to do. You can create, and mark as done" projectImage={suco}></Project>
-                <Project descriptionn="This project was made in React during a challenge called '5 Projetos em 5 Dias' by B7Web." projectImage={hamburguer}></Project>
+                <Project projectImage={acai}></Project>
+                <Project projectImage={acai2}></Project>
+                <Project projectImage={suco}></Project>
+                <Project projectImage={hamburguer}></Project>
+                <Project projectImage={meu_acai}></Project>
+                <Project projectImage={cartaz_filme}></Project>
             </C.ContainerProjects>
         </C.Container>
     );
