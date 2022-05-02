@@ -16,7 +16,6 @@ function Project({projectImage}) {
         Swal.fire({
             imageUrl: img,
             Width: 900,
-            imageHeight: 550,
             showConfirmButton: false,
             background: 'transparent'
         })
