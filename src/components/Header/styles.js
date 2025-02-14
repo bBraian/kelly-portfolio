@@ -4,7 +4,7 @@ import '../../App.css';
 export const Container = styled.div`
     width: 100%vw;
     height: 148px;
-    background-image: url(${props => props.theme.colors.background_img});
+    background-image: url("../../images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

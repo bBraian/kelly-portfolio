@@ -1,5 +1,5 @@
 import * as C from './styles';
-import fotoPerfil from '../../images/kelly.png';
+import fotoPerfil from '../../images/perfil.png';
 import Switch from 'react-switch';
 import { ThemeContext } from 'styled-components';
 import React, { useContext } from 'react';
