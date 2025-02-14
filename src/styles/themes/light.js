@@ -1,5 +1,3 @@
-import background from '../../images/white.jpg';
-
 const light =  {
     title: 'light',
 
@@ -9,7 +7,7 @@ const light =  {
 
         background: '#F7F6F9',
         text: '#333',
-        background_img: background,
+        border: '#91C9BC',
         shaddow: '#dfdfdf'
     }
 }

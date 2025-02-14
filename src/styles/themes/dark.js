@@ -1,5 +1,3 @@
-import background from '../../images/black.jpg';
-
 const dark =  {
     title: 'dark',
 
@@ -9,7 +7,7 @@ const dark =  {
 
         background: '#222',
         text: '#fff',
-        background_img: background,
+        border: '#8357E5',
         shaddow: '#0e0e0e'
     }
 }

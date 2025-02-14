@@ -4,7 +4,7 @@ import '../../App.css';
 export const Container = styled.div`
     width: 100%vw;
     height: 148px;
-    background-image: url("../../images/background.jpg");
+    background-image: url(${props => props.bgImage});
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -32,7 +32,7 @@ export const Image = styled.div`
 `;
 
 export const Name = styled.span`
-    color: ${props => props.theme.colors.text};
+    color: ${props => props.theme.colors.title};
     font-size: 45px;
     font-family: 'Roboto', sans-serif;
     margin: 0 25px;
@@ -40,6 +40,7 @@ export const Name = styled.span`
     
     @media(max-width: 800px) {
         font-size: 22px;
+        font-weight: 900;
     }
 `;
 
