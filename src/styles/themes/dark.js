@@ -1,15 +1,25 @@
-const dark =  {
-    title: 'dark',
+export const dark = {
 
-    colors: {
-        primary: '#0A0A0B',
-        secundary: '#8357E5',
+    'background': '#191919',
+    'home-title': '#D9D9D9',
+    'titles': '#CCCCCC',
+    'contents': '#A7A7A7',
+    'project-bg': '#363636',
+    'separator': '#363636',
 
-        background: '#222',
-        text: '#fff',
-        border: '#8357E5',
-        shaddow: '#0e0e0e'
-    }
+    'box-shadow': 'rgb(0 0 0)',
+
+    'header-hover': '#FFFFFF',
+    'infos': '#E9E9E9',
+
+    'boxes': '#363636',
+    'white': '#FFFFFF',
+
+    'contact-title-color': '#E9E9E9',
+
+    'border-switch': '#848484',
+    'background-switch': '#3a3a3a',
+    'icon-switch': '#1a1a1a',
+    'color-icon-switch': '#ffff'
+
 }
-
-export default dark;

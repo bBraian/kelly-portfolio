@@ -1,55 +1,104 @@
 import styled from "styled-components";
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
-export const Project = styled.div`
+export const ProjectContainer = styled.div`
+    @media (max-width: 1024px) {
+        width: 45%;
+    }
+    @media (max-width: 866px) {
+        width: 88%;
+    }
     width: 30%;
-    min-height: 320px;
-    border-radius: 15px;
-    margin: 20px;
-    border: 1px solid ${props => props.theme.colors.secundary};
-    background-color: ${props => props.theme.colors.primary};
-    box-shadow: 0 15px 15px ${props => props.theme.colors.shaddow};
-    padding: 20px;
-    transform: scale(0.98);
-    transition: all ease 0.2s;
-
-    @media(max-width: 1024px) {
-        width: 47%;
-    }
-
-    @media(max-width: 780px) {
-        width: 100%;
-        margin: 20px 0px;
-        max-height: 230px;
-    }
-
-    &:hover{
-        transform: scale(1);
-        h1{
-            text-decoration: underline ${props => props.theme.colors.secundary};
-            transition: all ease 0.5s;
-        }
-    }
-`;
-
-export const Container = styled.div`
-    width: 100%;
-    height: 100%;
+    border-radius: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 25px;
+    /* margin-bottom: 2rem; */
+    -webkit-box-shadow: 2px 2px 100px 0px ${props => props.theme['box-shadow']};
+    -moz-box-shadow: 2px 2px 100px 0px ${props => props.theme['box-shadow']};
+    box-shadow: 2px 2px 100px 0px ${props => props.theme['box-shadow']};
 `;
 
-export const See = styled.div`
-    &:hover{
-        cursor: pointer;
-    }
-    color: ${props => props.theme.colors.text}
-`;
-
-export const Description = styled.div`
+export const ProjectImage = styled(LazyLoadImage)`
     overflow: hidden;
-    transition: 5s;
+    width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    object-fit: cover;
 `;
 
+export const ProjectContent = styled.div`
+    overflow: hidden;
+    background-color: ${props => props.theme['project-bg']};
+    border-radius: 0 0 20px 20px;
+    padding: 1.75rem;
+`;
+
+export const Title = styled.h1`
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: ${props => props.theme['titles']};
+`;
+
+export const Description = styled.p`
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 300;
+    color: ${props => props.theme['titles']};
+    margin-top: 1rem;
+`;
+
+export const TechStackBox = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 1rem;
+    align-items: center;
+`;
+
+export const TechTitle = styled.h3`
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: ${props => props.theme['titles']};
+`;
+
+export const TechBox = styled.div`
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0.55rem;
+    gap: 0.6rem;
+    justify-content: center;
+`;
+
+export const TechImg = styled.img`
+    width: 1.4rem;
+    height: 1.4rem;
+    object-fit: fill;
+`;
+
+export const LinkBox = styled.div`
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+`;
+
+export const Link = styled.a`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    text-decoration-color: ${props => props.theme['white']};
+`;
+
+export const Icon = styled.img``;
+
+export const TextLink = styled.span`
+    color: ${props => props.theme['white']};
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+`
