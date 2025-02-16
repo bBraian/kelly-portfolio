@@ -4,13 +4,7 @@ export const projects = [
     name: "Coffee Delivery",
     image:
       "https://raw.githubusercontent.com/bBraian/coffee-delivery/main/src/assets/Capa.png",
-    description_eng:
-      "This project is basically a coffee buying site, with a carringo and delivery system",
-    description_pt:
-      "Esse projeto é basicamente um site de compra de café, com sistema de carringo e entrega",
     tecnologiesId: [2],
-    previewLink: "https://coffee-delivery-bbraian.vercel.app/",
-    repositoryLink: "https://github.com/bBraian/coffee-delivery",
   },
   {
     id: 2,

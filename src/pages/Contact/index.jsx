@@ -4,16 +4,16 @@ import { useContext } from "react";
 import { AppContext } from "../../context/AppContext";
 
 export function Contact() {
-    const { language } = useContext(AppContext);
+  const { language } = useContext(AppContext);
 
-    return (
-        <ContactContainer>
-            <div></div>
-            <ContactBox>
-                <Title>{ language.contact_title }</Title>
-                <TextGradient>braianvoficial@gmail.com</TextGradient>
-            </ContactBox>
-            <Footer />
-        </ContactContainer>
-    )
+  return (
+    <ContactContainer>
+      <div></div>
+      <ContactBox>
+        <Title>{language.contact_title}</Title>
+        <TextGradient>kellyjoner000@gmail.com</TextGradient>
+      </ContactBox>
+      <Footer />
+    </ContactContainer>
+  );
 }

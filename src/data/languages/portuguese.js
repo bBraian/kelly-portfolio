@@ -21,7 +21,7 @@ export const portuguese = {
 
   about_me: "Sobre Mim",
   desc_about_me:
-    "Sou apaixonado por tecnologia e computadores desde jovem, e desde o começo da minha carreira como desenvolvedor acabei me apaixonando por front end. Estou constantemente em busca de novos desafios para que eu possa aprender ainda mais e evoluir. Adoro trabalhar em equipe e ajudar aos outros. Nas horas vagas eu faço cursos, desenvolvo projetos próprios e estudo.",
+    "Sou Kelly Joner, designer gráfica e arte finalista com experiência de 1 ano em criação de artes tanto para impressão em gráfica quanto para mídias digitais em agência de comunicação. Desenvolvo projetos criativos, adaptando os designs conforme as necessidades dos clientes. Tenho habilidades em softwares como Adobe Photoshop, Illustrator, Corel e Canva e sou comprometida com a entrega de trabalhos de alta qualidade dentro dos prazos estabelecidos.",
   work_experience: "Experiência",
   education: "Acadêmico",
 

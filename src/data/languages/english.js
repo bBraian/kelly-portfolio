@@ -22,7 +22,7 @@ export const english = {
 
   about_me: "About Me",
   desc_about_me:
-    "I've been passionate about technology and computers since young man, and from the beginning of my career as a developer ended up falling in love with front end. I am constantly looking for new challenges so I can learn even more and evolve. I love working as a team and helping others. In my spare time I take courses, develop projects own and study.",
+    "I'm Kelly Joner, a graphic designer and artist with 1 year of experience creating artwork for both printing and digital media at a communications agency. I develop creative projects, adapting designs according to the needs of clients. I have skills in software such as Adobe Photoshop, Illustrator, Corel and Canva and I am committed to delivering high-quality work within established deadlines.",
   work_experience: "Work Experience",
   education: "Education",
 

@@ -25,7 +25,6 @@ export function Project(props) {
   const showModal = (img) => {
     Swal.fire({
       imageUrl: img,
-      Width: 900,
       showConfirmButton: false,
       background: theme.background,
     });
