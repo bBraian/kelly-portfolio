@@ -29,7 +29,7 @@ export function Footer() {
     <FooterContainer>
       <FooterDesktop>
         <RowSpaceBetween>
-          <span>bBraian</span>
+          <span>Kelly Joner</span>
 
           <FooterContact>
             <span>+55 51 99922-2598</span>
