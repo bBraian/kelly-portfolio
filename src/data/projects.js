@@ -4,7 +4,7 @@ export const projects = [
     name: "Cartão de visita",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p14.png?raw=true",
-    full: "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/s14.jpg?raw=true",  
+    full: "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/s14.png?raw=true",  
     tecnologiesId: [0],
   },
   {
@@ -16,7 +16,7 @@ export const projects = [
     tecnologiesId: [2],
   },
   {
-    id: 15,
+    id: 16,
     name: "Convite",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p16.jpg?raw=true",
