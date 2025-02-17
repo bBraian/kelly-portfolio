@@ -1,5 +1,21 @@
 export const projects = [
   {
+    id: 14,
+    name: "Cartão de visita",
+    image:
+      "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p14.png?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/s14.jpg?raw=true",  
+    tecnologiesId: [0],
+  },
+  {
+    id: 15,
+    name: "Logo Casulo",
+    image:
+      "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p15.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/s15.png?raw=true",  
+    tecnologiesId: [0],
+  },
+  {
     id: 1,
     name: "Coffee Delivery",
     image:
