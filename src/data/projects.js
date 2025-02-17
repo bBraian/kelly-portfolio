@@ -13,7 +13,15 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p15.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/s15.png?raw=true",  
-    tecnologiesId: [0],
+    tecnologiesId: [2],
+  },
+  {
+    id: 15,
+    name: "Convite",
+    image:
+      "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p16.jpg?raw=true",
+    full: "",  
+    tecnologiesId: [2],
   },
   {
     id: 1,
