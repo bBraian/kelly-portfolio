@@ -27,13 +27,15 @@ export function About() {
           locale="Brochier"
           startDate={language.month[9] + ` 2023`}
           endDate="Atual"
+          period="Integral"
         />
         <WorkExperienceCard
           title="Atendente"
           company="Farmácia Agafarma"
           locale="Brochier"
-          startDate={`2018`}
+          startDate="2018"
           endDate={language.month[9] + ` 2023`}
+          period="Integral"
         />
       </WorkExperienceBox>
 
@@ -42,8 +44,9 @@ export function About() {
         <WorkExperienceCard
           title="Superior de tecnologia em Design Gráfico"
           company="FSG"
-          startDate={`2021`}
-          endDate={`2023`}
+          startDate="2021"
+          endDate="2023"
+          period="Formada"
         />
       </WorkExperienceBox>
     </AboutContainer>

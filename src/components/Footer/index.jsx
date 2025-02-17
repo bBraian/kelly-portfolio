@@ -28,6 +28,7 @@ export function Footer() {
   return (
     <FooterContainer>
       <FooterDesktop>
+        <Separator />
         <RowSpaceBetween>
           <span>Kelly Joner</span>
 
@@ -41,30 +42,6 @@ export function Footer() {
               </a>
             </Icons>
           </FooterContact>
-        </RowSpaceBetween>
-
-        <Separator />
-
-        <RowSpaceBetween>
-          <FooterLinks>
-            <button onClick={() => scrollToSection(homeRef)}>
-              {language.home}
-            </button>
-            <button onClick={() => handleNavigateTo("/about")}>
-              {language.about}
-            </button>
-            <button onClick={() => scrollToSection(skillsRef)}>
-              {language.tech_stack}
-            </button>
-            <button onClick={() => scrollToSection(projectsRef)}>
-              {language.projects}
-            </button>
-            <button onClick={() => handleNavigateTo("/contact")}>
-              {language.contact}
-            </button>
-          </FooterLinks>
-
-          <span>By bBraian</span>
         </RowSpaceBetween>
       </FooterDesktop>
 

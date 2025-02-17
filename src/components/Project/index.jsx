@@ -27,11 +27,16 @@ export function Project(props) {
       imageUrl: img,
       showConfirmButton: false,
       background: theme.background,
+      showCloseButton: true,
     });
   };
 
   return (
-    <ProjectContainer onClick={() => showModal(props.data.image)}>
+    <ProjectContainer
+      onClick={() =>
+        showModal(props.data.full ? props.data.full : props.data.image)
+      }
+    >
       <ProjectImage
         src={props.data.image}
         effect="blur"
