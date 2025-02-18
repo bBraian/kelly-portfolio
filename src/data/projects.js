@@ -3,55 +3,55 @@ export const projects = [
     id: 17,
     name: "Cartão de visita",
     image:
-      "./src/assets/images/c1.jpg",
-    full: "./src/assets/images/a1.png",  
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c1.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a1.png?raw=true",  
     tecnologiesId: 0,
   },
   {
     id: 18,
     name: "Cartão de visita",
     image:
-      "./src/assets/images/c2.jpg",
-    full: "./src/assets/images/a2.png",  
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c2.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a2.png?raw=true",  
     tecnologiesId: 0,
   },
   {
     id: 19,
     name: "Cartão de visita",
     image:
-      "./src/assets/images/c3.jpg",
-    full: "./src/assets/images/a3.png",  
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c3.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a3.png?raw=true",  
     tecnologiesId: 0,
   },
   {
     id: 20,
     name: "Cartão de visita",
     image:
-      "./src/assets/images/c4.jpg",
-    full: "./src/assets/images/a4.png",  
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c4.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a4.png?raw=true",  
     tecnologiesId: 0,
   },
   {
     id: 21,
     name: "Cartão de visita",
     image:
-      "./src/assets/images/c5.jpg",
-    full: "./src/assets/images/a5.jpg",  
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c5.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a5.jpg?raw=true",  
     tecnologiesId: 0,
   },
   {
     id: 15,
     name: "Logo Casulo",
     image:
-      "./src/assets/images/p15.jpg",
-    full: "./src/assets/images/s15.png",  
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p15.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/s15.png?raw=true",  
     tecnologiesId: 2,
   },
   {
     id: 1,
     name: "Coffee Delivery",
     image:
-      "./src/assets/images/p1.jpg",
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p1.jpg?raw=true",
     full: "",  
     tecnologiesId: 2,
   },
@@ -59,7 +59,7 @@ export const projects = [
     id: 2,
     name: "iCook",
     image:
-      "./src/assets/images/p2.png",
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p2.png?raw=true",
     full: "",   
     tecnologiesId: 3,
   },
@@ -67,7 +67,7 @@ export const projects = [
     id: 3,
     name: "Unisinos Groups",
     image:
-      "./src/assets/images/p3.png",
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p3.png?raw=true",
     full: "", 
     tecnologiesId: 2,
   },
@@ -75,7 +75,7 @@ export const projects = [
     id: 4,
     name: "ReactFlix",
     image:
-      "./src/assets/images/p4.png",
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p4.png?raw=true",
     full: "",  
     tecnologiesId: 1,
   },
@@ -83,7 +83,7 @@ export const projects = [
     id: 9,
     name: "IMC Calculator",
     image:
-      "./src/assets/images/p10.jpg",
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p10.jpg?raw=true",
     full: "",  
     tecnologiesId: 3,
   },
@@ -91,7 +91,7 @@ export const projects = [
     id: 10,
     name: "Digital Menu",
     image:
-      "./src/assets/images/p11.jpg",
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p11.jpg?raw=true",
     full: "",  
     tecnologiesId: 2,
   },
@@ -99,7 +99,7 @@ export const projects = [
     id: 12,
     name: "SavePass",
     image:
-      "./src/assets/images/p12.jpg",
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p12.jpg?raw=true",
     full: "",  
     tecnologiesId: 1,
   },
@@ -107,7 +107,7 @@ export const projects = [
     id: 13,
     name: "Redux Player",
     image:
-      "./src/assets/images/p13.png",
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p13.png?raw=true",
     full: "",  
     tecnologiesId: 1,
   },
