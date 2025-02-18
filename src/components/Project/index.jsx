@@ -36,7 +36,13 @@ export function Project(props) {
       onClick={() =>
         showModal(props.data.full ? props.data.full : props.data.image)
       }
+      title="Clique para ver mais"
     >
+      <TechImg
+        src={tecnologies[props.data.tecnologiesId].icon}
+        title={tecnologies[props.data.tecnologiesId].name}
+      />
+
       <ProjectImage
         src={props.data.image}
         effect="blur"
@@ -44,22 +50,20 @@ export function Project(props) {
         height={260}
       />
 
-      <ProjectContent>
+      {/* <TechBox>
+        {props.data.tecnologiesId.map((tecId, index) => {
+          return (
+            
+          );
+        })}
+      </TechBox> */}
+
+      {/* <ProjectContent>
         <div style={{ display: "flex", gap: "16px", justifyContent: "center" }}>
           <Title>{props.data.name}</Title>
-          <TechBox>
-            {props.data.tecnologiesId.map((tecId, index) => {
-              return (
-                <TechImg
-                  src={tecnologies[tecId].icon}
-                  title={tecnologies[tecId].name}
-                  key={index}
-                />
-              );
-            })}
-          </TechBox>
+          
         </div>
-      </ProjectContent>
+      </ProjectContent> */}
     </ProjectContainer>
   );
 }

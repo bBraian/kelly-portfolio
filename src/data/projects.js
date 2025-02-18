@@ -5,7 +5,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p14.png?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/s14.png?raw=true",  
-    tecnologiesId: [0],
+    tecnologiesId: 0,
   },
   {
     id: 15,
@@ -13,7 +13,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p15.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/s15.png?raw=true",  
-    tecnologiesId: [2],
+    tecnologiesId: 2,
   },
   {
     id: 16,
@@ -21,7 +21,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p16.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/s1.png?raw=true",  
-    tecnologiesId: [2],
+    tecnologiesId: 2,
   },
   {
     id: 1,
@@ -29,7 +29,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p1.jpg?raw=true",
     full: "",  
-    tecnologiesId: [2],
+    tecnologiesId: 2,
   },
   {
     id: 2,
@@ -37,7 +37,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p2.png?raw=true",
     full: "",   
-    tecnologiesId: [3],
+    tecnologiesId: 3,
   },
   {
     id: 3,
@@ -45,7 +45,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p3.png?raw=true",
     full: "", 
-    tecnologiesId: [2],
+    tecnologiesId: 2,
   },
   {
     id: 4,
@@ -53,7 +53,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p4.png?raw=true",
     full: "",  
-    tecnologiesId: [1],
+    tecnologiesId: 1,
   },
   {
     id: 9,
@@ -61,7 +61,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p10.jpg?raw=true",
     full: "",  
-    tecnologiesId: [3],
+    tecnologiesId: 3,
   },
   {
     id: 10,
@@ -69,7 +69,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p11.jpg?raw=true",
     full: "",  
-    tecnologiesId: [2],
+    tecnologiesId: 2,
   },
   {
     id: 12,
@@ -77,7 +77,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p12.jpg?raw=true",
     full: "",  
-    tecnologiesId: [1],
+    tecnologiesId: 1,
   },
   {
     id: 13,
@@ -85,6 +85,6 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/master/src/assets/images/p13.png?raw=true",
     full: "",  
-    tecnologiesId: [1],
+    tecnologiesId: 1,
   },
 ];

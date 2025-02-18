@@ -12,17 +12,21 @@ export const ProjectContainer = styled.div`
   border-radius: 20px;
   display: flex;
   flex-direction: column;
-  /* margin-bottom: 2rem; */
+  cursor: pointer;
   -webkit-box-shadow: 2px 2px 100px 0px ${(props) => props.theme["box-shadow"]};
   -moz-box-shadow: 2px 2px 100px 0px ${(props) => props.theme["box-shadow"]};
   box-shadow: 2px 2px 100px 0px ${(props) => props.theme["box-shadow"]};
+  transition: all ease-in-out 0.2s;
+
+  &:hover {
+    scale: 1.03;
+  }
 `;
 
 export const ProjectImage = styled(LazyLoadImage)`
   overflow: hidden;
   width: 100%;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-radius: 20px;
   object-fit: cover;
 `;
 
@@ -74,6 +78,13 @@ export const TechImg = styled.img`
   width: 2.4rem;
   height: 2.4rem;
   object-fit: fill;
+  z-index: 1;
+  position: absolute;
+  top: -12px;
+  right: -12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 export const LinkBox = styled.div`
