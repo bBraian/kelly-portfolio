@@ -26,7 +26,7 @@ export const ProjectContainer = styled.div`
 export const ProjectImage = styled(LazyLoadImage)`
   overflow: hidden;
   width: 100%;
-  border-radius: 20px;
+  border-radius: 20px 20px 0px 0px;
   object-fit: cover;
 `;
 
@@ -78,13 +78,13 @@ export const TechImg = styled.img`
   width: 2.4rem;
   height: 2.4rem;
   object-fit: fill;
-  z-index: 1;
+  /* z-index: 1;
   position: absolute;
   top: -12px;
   right: -12px;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 `;
 
 export const LinkBox = styled.div`

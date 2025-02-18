@@ -38,11 +38,6 @@ export function Project(props) {
       }
       title="Clique para ver mais"
     >
-      <TechImg
-        src={tecnologies[props.data.tecnologiesId].icon}
-        title={tecnologies[props.data.tecnologiesId].name}
-      />
-
       <ProjectImage
         src={props.data.image}
         effect="blur"
@@ -58,12 +53,15 @@ export function Project(props) {
         })}
       </TechBox> */}
 
-      {/* <ProjectContent>
+      <ProjectContent>
         <div style={{ display: "flex", gap: "16px", justifyContent: "center" }}>
-          <Title>{props.data.name}</Title>
-          
+          {/* <Title>{props.data.name}</Title> */}
+          <TechImg
+            src={tecnologies[props.data.tecnologiesId].icon}
+            title={tecnologies[props.data.tecnologiesId].name}
+          />
         </div>
-      </ProjectContent> */}
+      </ProjectContent>
     </ProjectContainer>
   );
 }
