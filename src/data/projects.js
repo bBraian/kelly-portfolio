@@ -1,6 +1,6 @@
 export const projects = [
   {
-    id: 17,
+    id: 1,
     name: "Cartão de visita",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c1.jpg?raw=true",
@@ -8,7 +8,7 @@ export const projects = [
     tecnologiesId: 0,
   },
   {
-    id: 18,
+    id: 2,
     name: "Cartão de visita",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c2.jpg?raw=true",
@@ -16,7 +16,7 @@ export const projects = [
     tecnologiesId: 0,
   },
   {
-    id: 19,
+    id: 3,
     name: "Cartão de visita",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c3.jpg?raw=true",
@@ -24,7 +24,7 @@ export const projects = [
     tecnologiesId: 2,
   },
   {
-    id: 20,
+    id: 4,
     name: "Cartão de visita",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c4.jpg?raw=true",
@@ -32,7 +32,7 @@ export const projects = [
     tecnologiesId: 2,
   },
   {
-    id: 21,
+    id: 5,
     name: "Cartão de visita",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c5.jpg?raw=true",
@@ -40,7 +40,7 @@ export const projects = [
     tecnologiesId: 2,
   },
   {
-    id: 15,
+    id: 6,
     name: "Logo Casulo",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c4.jpg?raw=true",
@@ -48,35 +48,19 @@ export const projects = [
     tecnologiesId: 2,
   },
   {
-    id: 1,
-    name: "Coffee Delivery",
+    id: 7,
+    name: "Logo Casulo",
     image:
-      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p1.jpg?raw=true",
-    full: "",  
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c6.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a6.jpg?raw=true",  
     tecnologiesId: 2,
   },
   {
-    id: 2,
-    name: "iCook",
+    id: 8,
+    name: "Logo Casulo",
     image:
-      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p2.png?raw=true",
-    full: "",   
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c7.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a7.jpg?raw=true",  
     tecnologiesId: 2,
   },
-  {
-    id: 3,
-    name: "Unisinos Groups",
-    image:
-      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p3.png?raw=true",
-    full: "", 
-    tecnologiesId: 2,
-  },
-  {
-    id: 4,
-    name: "ReactFlix",
-    image:
-      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/p4.png?raw=true",
-    full: "",  
-    tecnologiesId: 2,
-  }
 ];
