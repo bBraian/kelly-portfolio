@@ -60,7 +60,7 @@ export const projects = [
     name: "Logo Casulo",
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c7.jpg?raw=true",
-    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a7.jpg?raw=true",  
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a7.png?raw=true",  
     tecnologiesId: 2,
   },
 ];
