@@ -75,8 +75,8 @@ export const TechBox = styled.div`
 `;
 
 export const TechImg = styled.img`
-  width: 2.4rem;
-  height: 2.4rem;
+  width: 2.6rem;
+  height: 2.6rem;
   object-fit: fill;
   /* z-index: 1;
   position: absolute;

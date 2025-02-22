@@ -23,12 +23,40 @@ export function Project(props) {
   console.log(theme);
 
   const showModal = (img) => {
-    Swal.fire({
-      imageUrl: img,
+    // Show loading modal
+    const loadingModal = Swal.fire({
+      title: "Carregando...",
+      didOpen: () => {
+        Swal.showLoading(); // Show loading spinner
+      },
       showConfirmButton: false,
-      background: theme.background,
-      showCloseButton: true,
+      allowOutsideClick: false,
     });
+
+    // Preload the image
+    const image = new Image();
+    image.src = img;
+    image.onload = () => {
+      // Close loading modal
+      Swal.close();
+
+      // Show the actual modal with the image
+      Swal.fire({
+        imageUrl: img,
+        showConfirmButton: false,
+        background: theme.background,
+        showCloseButton: true,
+      });
+    };
+
+    image.onerror = () => {
+      Swal.fire({
+        title: "Error",
+        text: "Falha ao carregar imagem.",
+        icon: "error",
+        background: theme.background,
+      });
+    };
   };
 
   return (
@@ -45,21 +73,18 @@ export function Project(props) {
         height={260}
       />
 
-      {/* <TechBox>
-        {props.data.tecnologiesId.map((tecId, index) => {
-          return (
-            
-          );
-        })}
-      </TechBox> */}
-
       <ProjectContent>
-        <div style={{ display: "flex", gap: "16px", justifyContent: "center" }}>
+        <div style={{ display: "flex", gap: "12px", justifyContent: "center" }}>
           {/* <Title>{props.data.name}</Title> */}
-          <TechImg
-            src={tecnologies[props.data.tecnologiesId].icon}
-            title={tecnologies[props.data.tecnologiesId].name}
-          />
+          {props.data.tecnologiesId.map((tecId, index) => {
+            return (
+              <TechImg
+                key={index}
+                src={tecnologies[tecId].icon}
+                title={tecnologies[tecId].name}
+              />
+            );
+          })}
         </div>
       </ProjectContent>
     </ProjectContainer>

@@ -5,7 +5,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c1.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a1.png?raw=true",  
-    tecnologiesId: 0,
+    tecnologiesId: [0],
   },
   {
     id: 2,
@@ -13,7 +13,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c2.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a2.png?raw=true",  
-    tecnologiesId: 0,
+    tecnologiesId: [0],
   },
   {
     id: 3,
@@ -21,7 +21,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c3.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a3.png?raw=true",  
-    tecnologiesId: 2,
+    tecnologiesId: [2],
   },
   {
     id: 4,
@@ -29,7 +29,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c4.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a4.png?raw=true",  
-    tecnologiesId: 2,
+    tecnologiesId: [2],
   },
   {
     id: 5,
@@ -37,7 +37,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c5.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a5.jpg?raw=true",  
-    tecnologiesId: 2,
+    tecnologiesId: [2],
   },
   {
     id: 6,
@@ -45,7 +45,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c4.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/s15.png?raw=true",  
-    tecnologiesId: 2,
+    tecnologiesId: [2],
   },
   {
     id: 7,
@@ -53,7 +53,7 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c6.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a6.jpg?raw=true",  
-    tecnologiesId: 2,
+    tecnologiesId: [2],
   },
   {
     id: 8,
@@ -61,6 +61,14 @@ export const projects = [
     image:
       "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c7.jpg?raw=true",
     full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a7.png?raw=true",  
-    tecnologiesId: 2,
+    tecnologiesId: [2, 1],
+  },
+  {
+    id: 9,
+    name: "Social Media Fera",
+    image:
+      "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/c1.jpg?raw=true",
+    full: "https://github.com/bBraian/kelly-portfolio/blob/main/src/assets/images/a8.jpg?raw=true",  
+    tecnologiesId: [0],
   },
 ];
