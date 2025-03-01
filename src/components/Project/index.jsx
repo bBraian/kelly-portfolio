@@ -1,15 +1,10 @@
 import {
-  Description,
   ProjectContainer,
   ProjectContent,
   ProjectImage,
-  TechBox,
   TechImg,
-  Title,
 } from "./styles";
 import "react-lazy-load-image-component/src/effects/blur.css";
-
-import { english } from "../../data/languages/english";
 
 import Swal from "sweetalert2";
 
@@ -77,11 +72,15 @@ export function Project(props) {
         <div style={{ display: "flex", gap: "12px", justifyContent: "center" }}>
           {/* <Title>{props.data.name}</Title> */}
           {props.data.tecnologiesId.map((tecId, index) => {
+            const tecnologySvg = tecnologies.filter(
+              (tec) => tec.id == tecId
+            )[0];
+            console.log(tecnologySvg);
             return (
               <TechImg
                 key={index}
-                src={tecnologies[tecId].icon}
-                title={tecnologies[tecId].name}
+                src={tecnologySvg.icon}
+                title={tecnologySvg.name}
               />
             );
           })}
