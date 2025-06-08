@@ -4,6 +4,7 @@ import adobe_illustrator from "../assets/devicon/adobe_illustrator.svg";
 import capcut from "../assets/devicon/capcut.svg";
 import canva from "../assets/devicon/canva.svg";
 import adobe_after_effects from "../assets/devicon/adobe-after-effects.svg";
+import figma from "../assets/devicon/figma.svg";
 
 export const tecnologies = [
   { id: 1, name: "Adobe Photoshop", icon: adobe_photoshop },
@@ -12,4 +13,5 @@ export const tecnologies = [
   { id: 5, name: "Capcut", icon: capcut },
   { id: 4, name: "Canva", icon: canva },
   { id: 3, name: "CorelDraw", icon: corel },
+  { id: 7, name: "Figma", icon: figma },
 ];
