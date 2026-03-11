@@ -1,12 +1,7 @@
 import { useContext, useEffect } from "react";
 import { AppContext } from "../../context/AppContext";
 import { WorkExperienceCard } from "./components/WorkExperienceCard";
-import {
-  AboutContainer,
-  TextAboutMe,
-  Title,
-  WorkExperienceBox,
-} from "./styles";
+import { AboutContainer, TextAboutMe, Title, WorkExperienceBox } from "./styles";
 
 export function About() {
   useEffect(() => {
@@ -22,7 +17,7 @@ export function About() {
       <Title>{language.work_experience}</Title>
       <WorkExperienceBox>
         <WorkExperienceCard
-          title="Arte Finalista"
+          title="Designer Gráfica"
           company="Gráfica Brochier"
           locale="Brochier"
           startDate={language.month[9] + ` 2023`}

@@ -21,24 +21,11 @@ export const portuguese = {
 
   about_me: "Sobre Mim",
   desc_about_me:
-    "Sou Kelly Joner, designer gráfica e arte finalista com experiência de 1 ano em criação de artes tanto para impressão em gráfica quanto para mídias digitais em agência de comunicação. Desenvolvo projetos criativos, adaptando os designs conforme as necessidades dos clientes. Tenho habilidades em softwares como Adobe Photoshop, Illustrator, Corel e Canva e sou comprometida com a entrega de trabalhos de alta qualidade dentro dos prazos estabelecidos.",
+    "Sou Kelly Joner, designer gráfica, com quase 3 anos de experiência na criação de materiais para impressão em gráfica e mídias digitais em agência de comunicação. Desenvolvo peças criativas, adaptando cada projeto às necessidades e objetivos de cada cliente. Tenho domínio de ferramentas como Adobe Photoshop, Illustrator, Corel e Canva, e prezo pela qualidade, organização e cumprimento de prazos em todos os trabalhos.",
   work_experience: "Experiência",
   education: "Acadêmico",
 
   contact_title: "Para qualquer dúvida, me mande um email",
 
-  month: [
-    "Jan",
-    "Fev",
-    "Mar",
-    "Abr",
-    "Mai",
-    "Jun",
-    "Jul",
-    "Ago",
-    "Set",
-    "Out",
-    "Nov",
-    "Dez",
-  ],
+  month: ["Jan", "Fev", "Mar", "Abr", "Mai", "Jun", "Jul", "Ago", "Set", "Out", "Nov", "Dez"],
 };
